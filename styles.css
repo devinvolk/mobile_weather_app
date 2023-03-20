@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('images/sunny.jpeg');
+}
+
+.container {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-btn {
+    display: flex;
+    align-items: end;
+}
+
+.displayWeatherCurrent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.displayHourly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.card-title, .card-sub-title, .list-group-item {
+    display: flex;
+    justify-content: center;
+}
+
+#next-day{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body-hourly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2em;
+}
+
+.card-btn {
+    margin-right: 0.1em;
+    margin-left: 0.1em;
+}
